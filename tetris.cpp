@@ -9,9 +9,9 @@ int getKey(){
 	return -1;
 }
 
-class StartPage {
+class StartingPage {
 public:
-    StartPage() {
+    StartingPage() {
         using namespace std;
         cout << "\n\n\n\n";
         cout << "\t\t"; cout << "@@@@@@@@@@@@  @@@@@@@@@   @@@@@@@@@@@  @@@@@@@@   @   @@@@@@@@@@@\n";
@@ -44,7 +44,7 @@ public:
 int main(){
     using namespace std;
     system("mode con cols=100 lines=40 | title 테트리스");
-    StartPage();
+    StartingPage();
     GameBoard();
     cout << "Hellow world!";
     getchar();
